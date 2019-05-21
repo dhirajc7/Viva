@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_loginbutton_silver.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_loginbutton_silver.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_focused.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_place_default_icon.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_place_default_icon.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_longpressed.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_longpressed.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_pressed.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_default_icon.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_default_icon.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_item_background.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_item_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_normal.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_inverse_icon.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_top_button.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_top_button.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_picture_blank_square.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_default_icon.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_default_icon.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_normal.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_focused.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_top_background.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_top_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_picture_blank_square.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_pressed.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_inverse_icon.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_list_divider.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_list_divider.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_item_background.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_item_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_focused.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_focused.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_longpressed.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_longpressed.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_list_divider.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_list_divider.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_list_section_header_background.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_list_section_header_background.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_top_button.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_top_button.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_logo.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_logo.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector_disabled.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector_background_transition.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector_background_transition.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_place_default_icon.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_place_default_icon.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_loginbutton_silver.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_loginbutton_silver.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_top_button.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_top_button.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_focused.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_pressed.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_close.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_close.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check_on.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check_on.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_top_background.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_top_background.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_list_section_header_background.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_list_section_header_background.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check_off.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check_off.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector_background_transition.xml",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector_background_transition.xml"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_close.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_close.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_focused.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_focused.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_grey_pressed.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_normal.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_normal.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_selector_disabled.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_selector_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_focused.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check_off.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check_off.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_normal.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_normal.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_check_on.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_check_on.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_picker_list_pressed.9.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_picker_list_pressed.9.png"
+    },
+    {
+        "merged": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_blue_pressed.9.png",
+        "source": "F:\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_top_button.xml",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_top_button.xml"
+    },
+    {
+        "merged": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_logo.png",
+        "source": "D:\\Workspace2\\Viva_latttessest\\Viva\\FacebookSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_logo.png"
+    }
+]

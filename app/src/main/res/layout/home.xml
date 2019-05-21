@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <viva.oneplatinum.com.viva.circleview.CircleLayout
+                android:id="@+id/circularLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="275dp"
+                android:layout_gravity="top"
+                android:background="@drawable/wheel_image"
+                android:paddingBottom="0dp"
+                app:angleOffset="0"
+                app:angleRange="360">
+
+            </viva.oneplatinum.com.viva.circleview.CircleLayout>
+
+            <viva.oneplatinum.com.viva.widgets.FontIcon
+                android:id="@+id/homeSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/padding_normal"
+                android:text="G"
+                android:textColor="@color/Blue"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/events"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#c51f4a"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="Events"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                        android:id="@+id/eventName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                            android:id="@+id/img_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/amp"
+                            android:layout_gravity="top"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+
+                            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                                android:id="@+id/event_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+                        android:id="@+id/eventDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:lineSpacingExtra="5dp"
+                        android:maxLines="3"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+                            android:id="@+id/eventDateTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Saturday 19 january 2016, 3:00pm"
+                            android:textColor="@color/red"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/eventDetail"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:src="@drawable/more_info" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                        android:id="@+id/moreInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="TAP FOR MORE INFO"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <viva.oneplatinum.com.viva.widgets.FontIcon
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:text="v"
+            android:textColor="@color/standard_red"
+            android:textSize="30dp" />
+
+        <viva.oneplatinum.com.viva.widgets.FontIcon
+            android:id="@+id/userProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:text="F"
+            android:textColor="@color/purple"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <viva.oneplatinum.com.viva.widgets.FontIcon
+            android:id="@+id/notification"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingBottom="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:text="C"
+            android:textColor="@color/standard_orange"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

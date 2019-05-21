@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/profileImageBack"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#000"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <viva.oneplatinum.com.viva.widgets.CircularImageView
+                android:id="@+id/friendImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/firstName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profileImage"
+                    android:text="FIRSTNAME"
+                    android:textColor="@color/txt_color_default"
+                    android:textSize="14sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/lastName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/firstName"
+                    android:text="LASTNAME"
+                    android:textColor="@color/txt_color_default"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/followBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profileImage"
+                    android:background="#283461"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="+FOLLOW"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <include layout="@layout/tool_bar"></include>
+    </RelativeLayout>
+
+    <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="This profile is private."
+        android:textSize="18sp" />
+
+    <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="To view, please request"
+        android:textSize="18sp" />
+
+    <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="to follow this user."
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>

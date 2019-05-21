@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent">
+
+    <viva.oneplatinum.com.viva.widgets.FontIcon
+        android:id="@+id/backBtnToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="o"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+
+    <viva.oneplatinum.com.viva.widgets.FontIcon
+        android:id="@+id/searchToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:text="G"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+</RelativeLayout>

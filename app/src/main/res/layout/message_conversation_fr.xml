@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <viva.oneplatinum.com.viva.widgets.CircularImageView
+        android:id="@+id/fr_profimg"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="7dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/fr_chattext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@id/fr_profimg"
+        android:gravity="center_vertical"
+        android:minHeight="55dp"
+        android:padding="7dp"
+        android:text="12345678945612 \n dgasdfasdfasdfasdf"
+        android:textColor="@color/text_grey"
+        android:textSize="14sp" />
+
+</RelativeLayout>

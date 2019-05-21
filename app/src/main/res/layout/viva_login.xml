@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d142e" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0d142e"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="273dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/capture" />
+
+        <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="SIGN IN OR REGISTER WITH"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/loginWithFb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_blue"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <viva.oneplatinum.com.viva.widgets.FontIcon
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="c"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="FACEBOOK"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loginWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_red_transparent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <viva.oneplatinum.com.viva.widgets.FontIcon
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text="b"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="GOOGLE+"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_lightblue"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                 >
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:text="EMAIL"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                    android:id="@+id/Au_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:hint="Email"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:textSize="14sp" >
+                </viva.oneplatinum.com.viva.widgets.RobotoRegularEditText>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/text_grey" >
+                </LinearLayout>
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:textSize="14sp" >
+                </viva.oneplatinum.com.viva.widgets.RobotoRegularEditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="#2f354c"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:padding="15dp" >
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SIGN IN / REGISTER"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:id="@+id/sign_register"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+
+        <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Forget your password?"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

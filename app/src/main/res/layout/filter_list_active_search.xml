@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/tool_bar"></include>
+ <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_red"
+        android:orientation="horizontal"
+        android:padding="1dp"
+    >
+
+        <viva.oneplatinum.com.viva.widgets.FontIcon
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="H"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/search_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:hint="Keywords typed here"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" >
+
+        </AutoCompleteTextView>
+
+     <viva.oneplatinum.com.viva.widgets.FontIcon
+         android:id="@+id/cancel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:layout_margin="10dp"
+         android:text="g"
+         android:textColor="@color/red"
+         android:textSize="20sp"/>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/event_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

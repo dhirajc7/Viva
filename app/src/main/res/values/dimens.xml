@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding_popUpLayout">25dp</dimen>
+    <dimen name="padding_very_small">4dp</dimen>
+    <dimen name="padding_small">7dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">20dp</dimen>
+    <dimen name="btn_layout_height">48dp</dimen>
+    <dimen name="btn_layout_height_attending">32dp</dimen>
+    <dimen name="edit_text_layout_height">48dp</dimen>
+    <dimen name="textSize_very_small">12sp</dimen>
+    <dimen name="textSize_small">14sp</dimen>
+    <dimen name="textSize_normal">16sp</dimen>
+    <dimen name="textSize_large">18sp</dimen>
+    <dimen name="textSize_extra_large">20sp</dimen>
+    <dimen name="txt_box_layout_height">35dp</dimen>
+    <dimen name="sliding_drawer_layout_width">280dp</dimen>
+    <dimen name="banner_height">210dp</dimen>
+    <dimen name="textSize_mini_12">12dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="dgv_overlap_if_switch_straight_line">16dp</dimen>
+
+    </resources>

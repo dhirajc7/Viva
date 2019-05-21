@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridItemView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <viva.oneplatinum.com.viva.widgets.CircularImageView
+        android:id="@+id/friendImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:text="FIRSTNAME"
+        android:textColor="@color/txt_color_default"
+        android:textSize="16sp" />
+
+    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:text="LASTNAME"
+        android:textColor="@color/txt_color_default"
+        android:textSize="16sp" />
+
+</LinearLayout>

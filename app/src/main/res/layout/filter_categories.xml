@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool_bar"></include>
+
+        <LinearLayout
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_red"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <viva.oneplatinum.com.viva.widgets.FontIcon
+                android:id="@+id/searchIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text="G"
+                android:textColor="@color/Blue"
+                android:textSize="20sp" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                android:id="@+id/searchEvents"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:hint="Search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="15dp"
+                android:focusable="true"
+                android:textSize="14sp"></viva.oneplatinum.com.viva.widgets.RobotoRegularEditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/customSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="What do you feel like doing?"
+                android:textColor="@color/txt_color_default"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:id="@+id/artyLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/arty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="m"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="  Arty   "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/sporty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="I"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text=" Sporty  "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/party"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="D"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="  Party  "
+
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/whatever"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="K"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Whatever "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="When?"
+                android:textColor="@color/txt_color_default"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/morning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="w"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" Morning "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/afternoon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="l"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Afternoon"
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/evening"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="r"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" Evening "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/anytime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:gravity="center"
+                        android:padding="22dp"
+                        android:text="K"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" Anytime "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="How soon?"
+                android:textColor="@color/txt_color_default"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/nextDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="26dp"
+                        android:text="z"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="20sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" Next day "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/nextWeek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="26dp"
+                        android:text="B"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="20sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" Next week "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/nextMonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="26dp"
+                        android:text="A"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="20sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Next year "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/dayWhatEver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="21dp"
+                        android:text="K"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Whatever "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="How far away?"
+                android:textColor="@color/txt_color_default"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/two_km"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="28dp"
+                        android:text="h"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="20sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="   2km   "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/ten_km"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:gravity="center"
+                        android:padding="27dp"
+                        android:text="g"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="20sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="  10km   "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/fifty_km"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="d"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="  50km   "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/howFarWhatEver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_selector_for_filter"
+                        android:padding="22dp"
+                        android:text="K"
+                        android:textColor="@drawable/text_selector"
+                        android:textSize="30sp" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Whatever "
+                        android:textColor="@color/text_grey"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/reset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#c51f4a"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="RESET"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                    android:id="@+id/randomize"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#29bdc2"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="RANDOMISE"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eventSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+            </ScrollView>
+
+            <ListView
+                android:id="@+id/event_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#ddd"
+                android:dividerHeight="1dp"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

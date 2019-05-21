@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/tool_bar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <viva.oneplatinum.com.viva.widgets.RobotoLightEditText
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_red"
+            android:gravity="top"
+            android:hint="Event name"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:weightSum="2" >
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/Public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="PUBLIC"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/Private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="PRIVATE"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:weightSum="4" >
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="TYPE"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="TYPE"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="TYPE"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+
+        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+            android:id="@+id/type4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_red"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="TYPE"
+            android:textColor="@drawable/text_selector"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <!-- <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" > -->
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/circle_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/red_circle"
+                    android:gravity="bottom|right"
+                    android:text="J"
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/img1_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_square"
+                    android:gravity="bottom|right"
+                    android:text="J"
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+               
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1" >
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/img2_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/red_square"
+                        android:gravity="bottom|right"
+                        android:text="J"
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/img3_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/red_square"
+                        android:gravity="bottom|right"
+                        android:text="J"
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp" >
+
+                    <viva.oneplatinum.com.viva.widgets.FontIcon
+                        android:id="@+id/img4_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/red_square"
+                        android:gravity="bottom|right"
+                        android:text="J"
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

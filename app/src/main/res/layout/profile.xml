@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/layout_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/layout_error_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layoutDataView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Semitransparent_profile">
+
+                    <ImageView
+                        android:id="@+id/profileImageBack"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:background="@color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher"
+
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <viva.oneplatinum.com.viva.widgets.CircularImageView
+                        android:id="@+id/userImage"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profile_image" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                            android:id="@+id/firstName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/profileImage"
+                            android:text="FIRSTNAME"
+                            android:textSize="18sp" />
+
+                        <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                            android:id="@+id/lastName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_toLeftOf="@+id/firstName"
+                            android:text="LASTNAME"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"></LinearLayout>
+                </LinearLayout>
+
+                <!-- <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@android:color/transparent" >
+
+                     <TextView
+                         android:id="@+id/image1_action_bar"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentLeft="true"
+                         android:paddingLeft="5dp"
+                         android:text="a"
+                         android:textColor="#fff" />
+
+                     <TextView
+                         android:id="@+id/text_action_bar"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerInParent="true"
+                         android:gravity="center_horizontal"
+                         android:text="@string/hello_world"
+                         android:textColor="#fff"
+                         android:textSize="18sp" />
+
+                     <TextView
+                         android:id="@+id/image2_action_bar"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentRight="true"
+                         android:paddingRight="5dp"
+                         android:text="a"
+                         android:textColor="#fff" />
+                 </RelativeLayout>-->
+                <include layout="@layout/tool_bar"></include>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/createEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="q"
+                    android:textColor="@color/red"
+                    android:textSize="30sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding_very_small"
+                    android:text="Create event"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/myevent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="x"
+                    android:textColor="@color/red"
+                    android:textSize="30sp" />
+
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/padding_very_small"
+                    android:text="My events"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/myFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="y"
+                    android:textColor="@color/red"
+                    android:textSize="30sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="@dimen/padding_very_small"
+                    android:text="My friends"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addfriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="k"
+                    android:textColor="@color/red"
+                    android:textSize="30sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:padding="@dimen/padding_very_small"
+                    android:text="Add friends"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="H"
+                    android:textColor="@color/red"
+                    android:textSize="30sp" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="18dp"
+                    android:padding="@dimen/padding_very_small"
+                    android:text="Settings"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

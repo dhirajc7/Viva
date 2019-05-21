@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutErrorLoading"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/errorImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/txt_error_loading_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_extra_large"
+        android:paddingBottom="@dimen/padding_large"
+        android:gravity="center_horizontal"
+        android:text="No internet connection."
+        android:textColor="@color/txt_color_default"
+        android:textSize="@dimen/textSize_extra_large" />
+
+    <TextView
+        android:id="@+id/txt_error_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Tap to retry"
+        android:textSize="@dimen/textSize_extra_large"
+        android:textColor="@color/primaryColor" />
+
+</LinearLayout>

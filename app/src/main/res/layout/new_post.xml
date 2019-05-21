@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool_bar"></include>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/postContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_medium">
+
+                <RelativeLayout
+                    android:id="@+id/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <viva.oneplatinum.com.viva.widgets.CircularImageView
+                        android:id="@+id/fr_profimg"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="7dp"
+                        android:scaleType="centerCrop" />
+
+                    <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                        android:id="@+id/fr_chattext"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/fr_profimg"
+                        android:imeOptions="actionDone"
+                        android:gravity="center_vertical"
+                        android:background="@color/transparent"
+                        android:minHeight="55dp"
+                        android:padding="7dp"
+                        android:textColor="@color/txt_color_default"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+
+                    android:id="@+id/galleryImageContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_medium"></LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/eventLinkView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_medium"
+                    android:text="Linked to"
+                    android:textColor="@color/txt_color_default"
+                    android:textSize="@dimen/textSize_large" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/eventImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                                android:id="@+id/event_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/txt_color_default"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+
+                            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                                android:id="@+id/eventLocation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/txt_color_default"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+
+                            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                                android:id="@+id/eventTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/txt_color_default"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/red" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/newPostEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_margin="@dimen/padding_medium"
+                android:imeOptions="actionDone"
+                android:maxLines="5"
+                android:visibility="invisible"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+               />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:weightSum="4">
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/keyboard"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="J"
+                    android:textColor="@drawable/icon_selector"
+                    android:textSize="25dp"
+
+                    />
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/gallery"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="t"
+                    android:textColor="@drawable/icon_selector"
+                    android:textSize="25dp"
+
+                    />
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/cameraOpen"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="p"
+                    android:textColor="@drawable/icon_selector"
+                    android:textSize="25dp" />
+
+                <viva.oneplatinum.com.viva.widgets.FontIcon
+                    android:id="@+id/eventOpen"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="n"
+                    android:textColor="@drawable/icon_selector"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red" />
+
+            <RelativeLayout
+                android:id="@+id/camerapreview"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                >
+
+                <FrameLayout
+                    android:id="@+id/imageContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:id="@+id/cameraView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:visibility="gone">
+
+                    <SurfaceView
+                        android:id="@+id/surfaceView"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp" />
+                    />
+
+                    <ImageView
+                        android:id="@+id/capture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="captureImage"
+                        android:src="@drawable/camera_click_button" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

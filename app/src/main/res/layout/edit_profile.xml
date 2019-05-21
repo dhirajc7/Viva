@@ -1,0 +1,300 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Semitransparent_profile">
+
+                <ImageView
+                    android:id="@+id/profileImageBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY"
+
+                    />
+            </RelativeLayout>
+            <!-- <TextView
+                 android:id="@+id/image1_action_bar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:padding="5dp"
+                 android:text="a"
+                 android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/text_action_bar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:gravity="center_horizontal"
+                 android:text="@string/hello_world"
+                 android:textColor="#fff"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/image2_action_bar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:padding="5dp"
+                 android:text="a"
+                 android:textColor="#fff" />-->
+
+
+            <viva.oneplatinum.com.viva.widgets.CircularImageView
+                android:id="@+id/userImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/profile_border" />
+
+            <ImageView
+                android:id="@+id/imageEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="155dp"
+                android:src="@drawable/edit" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:layout_below="@+id/userImage"
+                android:orientation="vertical">
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                    android:id="@+id/firstName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:hint="FIRST NAME"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/textSize_small"
+                    android:textStyle="bold" />
+
+                <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                    android:id="@+id/lastName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:hint="LAST NAME"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/textSize_small"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <include layout="@layout/tool_bar"></include>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_red"
+                android:clickable="false"
+                android:hint="Email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textSize="14sp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="2">
+
+            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                android:id="@+id/textViewPublic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_selector_for_filter"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Public"
+                android:textColor="@drawable/text_selector"
+                android:textSize="16sp" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoBoldTextView
+                android:id="@+id/textViewPrivate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_selector_for_filter"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Private"
+                android:textColor="@drawable/text_selector"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+            android:weightSum="3">
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_selector_for_filter"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Male"
+                android:textColor="@drawable/text_selector"
+                android:textSize="16sp" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_selector_for_filter"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Female"
+                android:textColor="@drawable/text_selector"
+                android:textSize="16sp" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightTextView
+                android:id="@+id/other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_selector_for_filter"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Other"
+                android:textColor="@drawable/text_selector"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Spinner
+                android:id="@+id/day"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_red"
+                android:gravity="center" />
+
+            <Spinner
+                android:id="@+id/month"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_red"
+                android:gravity="center" />
+
+            <viva.oneplatinum.com.viva.widgets.RobotoLightEditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_red"
+                android:gravity="center"
+                android:hint="Year"
+                android:imeOptions="actionDone"
+                android:inputType="date"
+                android:maxLength="4"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/Au_AddressLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_red"
+                android:hint="Address/Hometown"
+                android:inputType="textCapSentences"
+                android:padding="15dp"
+                android:textSize="14sp"></AutoCompleteTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <viva.oneplatinum.com.viva.widgets.RobotoRegularEditText
+                android:id="@+id/Au_webSite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_red"
+                android:hint="Website"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textSize="14sp"></viva.oneplatinum.com.viva.widgets.RobotoRegularEditText>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

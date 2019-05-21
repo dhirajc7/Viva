@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="viva.oneplatinum.com.viva">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="viva.oneplatinum.com.viva.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="viva.oneplatinum.com.viva.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="viva.oneplatinum.com.viva.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <application
+        android:name=".app.VivaApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id_dhiraj" />
+
+
+        <activity
+            android:name=".activities.Settings"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.StartFromScratch"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name=".activities.FilterSearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.AddressBookActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.ViewAllMemberAvtivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.AddFriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+        <activity
+            android:name=".activities.EventDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.FriendsList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+        <activity
+            android:name=".activities.EditProfileActitvity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.EditEventActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.ImageGalleryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.FinalEditEventActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.InviteFriendsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.MyEvents"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.MyFriends"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.FriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.SetPassword"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.ResetPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.UserProfile"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.EditNotificationDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name=".activities.FriendDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.SingleImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.VivaFriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.MyFriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+        <activity
+            android:name=".activities.EventListingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.NotificationDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+        <activity
+            android:name=".activities.CreateEventBrandNew"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.CreateEvent3"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".activities.NewPostActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".maps.ShowEventLocationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".maps.MapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name=".activities.UsePreviousTemplateActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".maps.FilterSearchMapActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".activities.GoogleLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".activities.UsingPreviousTemlateActivityStep2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".activities.FinalUsingPreviosTemplateActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+
+        <!--<activity-->
+        <!--android:name=".activities.SplashActivity"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@style/AppTheme.NoActionBar"-->
+        <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
+
+        <!--</activity>-->
+        <activity
+            android:name=".activities.SignupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".activities.FriendsListForFacebook"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+
+            android:name="viva.oneplatinum.com.viva.fb.FacebookLogin"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".activities.ForgetPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SemiTransparent" />
+
+
+        <receiver
+            android:name="viva.oneplatinum.com.viva.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="viva.oneplatinum.com.viva" />
+            </intent-filter>
+        </receiver>
+        <service android:name="viva.oneplatinum.com.viva.gcm.GCMIntentService" />
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD6Sxa_ePMaWVoPNcoDQn5AkztPLcqoHMA" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id_dhiraj" />
+
+
+    </application>
+
+</manifest>

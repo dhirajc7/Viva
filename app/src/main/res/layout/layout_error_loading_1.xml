@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutErrorLoading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/errorImage"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/ic_no_internet" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_error_loading_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/no_internet_connection"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/textSize_normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+         >
+
+        <TextView
+            android:id="@+id/txt_error_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/Blue"
+            android:clickable="true"
+            android:padding="@dimen/padding_small"
+            android:text="Tap to retry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_small" 
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
